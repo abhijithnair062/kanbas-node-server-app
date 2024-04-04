@@ -28,7 +28,6 @@ function AssignmentRoutes(app) {
         db.assignments.push(newAssignment);
         res.send(newAssignment);
     });
-
     app.get("/api/courses/:cid/assignments", (req, res) => {
         const { cid } = req.params;
         const assignments = db.assignments.filter((a) => a.course === cid);
