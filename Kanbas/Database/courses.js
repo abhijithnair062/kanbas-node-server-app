@@ -253,7 +253,7 @@ export default [
     name: "Hydraulic Engineering in Ancient Civilizations",
     number: "ENG303",
     startDate: "2023-01-10",
-    image: "reactjs.jpg",
+    image: "reactjs.jpg", 
     endDate: "2023-05-15",
     department: "Engineering",
     credits: 4,
