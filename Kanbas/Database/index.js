@@ -5,6 +5,7 @@ import users from "./users.js";
 import enrollments from "./enrollments.js"
 import grades from "./grades.js"
 import quizzes from "./quizzes.js";
+import questions from "./questions.js";
 
 let db = {
     courses: courses,
@@ -13,6 +14,7 @@ let db = {
     users: users,
     enrollments: enrollments,
     grades: grades,
-    quizzes:quizzes
+    quizzes:quizzes,
+    questions:questions
 }
-export default {  courses, modules, assignments, users, enrollments, grades, quizzes, db  };
+export default {  courses, modules, assignments, users, enrollments, grades, quizzes, questions,db  };
