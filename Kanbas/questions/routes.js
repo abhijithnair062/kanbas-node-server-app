@@ -12,7 +12,7 @@ function QuestionsRoutes(app) {
     const newQuestion = {
       ...req.body,
       quiz: qid,
-      _id: new Date().getTime().toString(),
+      // _id: new Date().getTime().toString(),
     };
     db.questions.push(newQuestion);
     res.send(newQuestion);
